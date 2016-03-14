@@ -1,0 +1,135 @@
+ # ------------------------------- 
+ # Kingdom War CONFIGURATIONS 
+ # version v1.00
+ # ------------------------------- 
+ # --------------------------- 
+  language: "EN" 
+  run_selftest_message: "YES" 
+ # --------------------------- 
+ # default world lobby location 
+ # --------------------------- 
+ enable_spaw_lobby: "no" 
+ # --------------------------- 
+ # enforce block changes in game world 
+ disable_KW_world_blockBreak: true
+ 
+ disable_KW_world_blockPlace: true
+ 
+ # --------------------------- 
+ lobby_world: "world" 
+ lobby_x: "489" 
+ lobby_y: "5" 
+ lobby_z: "388" 
+ #--------------------------- 
+ kw_game_world: "world" 
+ kw_game_x: "147" 
+ kw_game_y: "5" 
+ kw_game_z: "188" 
+ #--------------------------- 
+ # GAME SETTINGS
+ #--------------------------- 
+ maximum_team_players: "10" 
+ maximum_game_rounds: "3" 
+
+ 
+ # time in seconds 
+ round_wait_time: "360" 
+ #--------------------------- 
+ # Arena Building Location 
+ #---------------------------  
+ kw_arena_name: "world" 
+ kw_arena_size: "26" 
+ kw_arena_x: "123" 
+ kw_arena_y: "4" 
+ kw_arena_z: "148" 
+ #--------------------------- 
+ # #fix01 - new customize fence 
+ # Fences 
+ # number are MC block id. eg 
+ # 85  - wood fence 
+ # 101 - iron fence 
+ # 98  - stone 
+ # 45  - brick 
+ # 48  - mossy stone 
+ #---------------------------  
+ kw_border_fence: "85" 
+ blue_team_defence_wall: "61" 
+ red_team_defence_wall: "45" 
+ #--------------------------- 
+ # waiting room 
+ #---------------------------  
+ kw_waiting_room_x: "148" 
+ kw_waiting_room_y: "4" 
+ kw_waiting_room_z: "183" 
+ #--------------------------- 
+ # New game sign 
+ #---------------------------  
+ kw_new_sign_x: "149" 
+ kw_new_sign_y: "5" 
+ kw_new_sign_z: "180" 
+ #--------------------------- 
+ # Game Stats sign 
+ #---------------------------  
+ kw_stat_sign_x: "148" 
+ kw_stat_sign_y: "5" 
+ kw_stat_sign_z: "180" 
+ #--------------------------- 
+ # Game Start Buttton Location 
+ #--------------------------- 
+ kw_start_button_1_x: "149" 
+ kw_start_button_1_y: "8" 
+ kw_start_button_1_z: "160" 
+ #--------------------------- 
+ # Game Leave Buttton Location 
+ #--------------------------- 
+ kw_leave_button_1_x: "149" 
+ kw_leave_button_1_y: "8" 
+ kw_leave_button_1_z: "158" 
+ #--------------------------- 
+ # Game Stop Buttton Location 
+ #--------------------------- 
+ kw_stop_button_1_x: "149" 
+ kw_stop_button_1_y: "8" 
+ kw_stop_button_1_z: "156" 
+ 
+ 
+ #--------------------------- 
+ # RED TEAM 
+ #--------------------------- 
+ kw_red_team_flag_x: "173" 
+ kw_red_team_flag_y: "8" 
+ kw_red_team_flag_z: "149" 
+ #--------------------------- 
+ kw_red_team_enermy_flag_x: "172" 
+ kw_red_team_enermy_flag_y: "8" 
+ kw_red_team_enermy_flag_z: "149" 
+ #--------------------------- 
+ kw_red_team_join_sign1_x: "150" 
+ kw_red_team_join_sign1_y: "5" 
+ kw_red_team_join_sign1_z: "181" 
+ #--------------------------- 
+ kw_red_team_spawn_x: "170" 
+ kw_red_team_spawn_y: "5" 
+ kw_red_team_spawn_z: "152" 
+ 
+ #--------------------------- 
+ # BLUE TEAM 
+ #--------------------------- 
+ kw_blue_team_flag_x: "124" 
+ kw_blue_team_flag_y: "8" 
+ kw_blue_team_flag_z: "150" 
+ #--------------------------- 
+ kw_blue_team_enermy_flag_x: "124" 
+ kw_blue_team_enermy_flag_y: "8" 
+ kw_blue_team_enermy_flag_z: "151" 
+ #--------------------------- 
+ kw_blue_team_join_sign1_x: "147" 
+ kw_blue_team_join_sign1_y: "5" 
+ kw_blue_team_join_sign1_z: "257"
+ #--------------------------- 
+ kw_blue_team_spawn_x: "127" 
+ kw_blue_team_spawn_y: "6" 
+ kw_blue_team_spawn_z: "153" 
+ #--------------------------- 
+
+
