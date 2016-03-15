@@ -54,6 +54,3 @@ tkg.kw:
           tkg.kw.command.setred:
             description: "Allows use of [setsignred] commands."
             default: op 
-          tkg.kw.command.setstat:
-            description: "Allows use of [setsignstat] commands."
-            default: op          
