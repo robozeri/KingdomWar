@@ -1,7 +1,21 @@
 <?php
- author: TheKnightGamer
- api: [1.14.0]
- version: 1.0.0
+
+namespace TheKnightGamer\KingdomWar;
+
+use pocketmine\plugin\PluginBase;
+
+class Main extends PluginBase{
+
+          public function onLoad(){
+                    $this->getLogger()->info("Plugin Loading");
+          }
+          public function onEnable(){
+                    $this->getLogger()->info("Enabled Plugin");
+          }
+          public function onDisable(){
+                    $this->getLogger()->info("Plugin Disabled");
+          }
+}
   main: tkg\game\KingdomWar\KWMain
   commands: 
   kw:
