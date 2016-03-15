@@ -1,67 +1,34 @@
-<?php
-
-namespace TheKnightGamer\KingdomWar;
-
-use pocketmine\plugin\PluginBase;
-
-class Main extends PluginBase{
-
-main: tkg\game\KingdomWar\KWMain
-commands: 
-kw:
-  description: "Start TheKnightGamer Kingdom War plugin"
-  permission: tkg.kw
-permissions: 
-tkg.kw:
-    description: "Kingdom WarMini-game Plugin"
-    default: true
-    children:
-      tkg.kw.command:
-        description: "Allows use all KW commands."
-        default: true
-        children:
-          tkg.kw.command.home:
-            description: "Allow use of [home] command"
-            default: true
-          tkg.kw.command.start:
-            description: "Allows use of [start]commands"
-            default: true            
-          tkg.kw.command.stop:
-            description: "Allows use of [stop] commands"
-            default: true
-          tkg.kw.command.leave:
-            description: "Allows use of [leave] commands" 
-            default: true           
-          tkg.kw.command.create:
-            description: "Allows use of [create] commands"            
-            default: op            
-          tkg.kw.command.reset:
-            description: "Allows use of [reset] commands"
-            default: op                                    
-          tkg.kw.command.stats:
-            description: "Allows use of [stats] commands"                                               
-            default: true 
-          tkg.kw.command.joinblue:
-            description: "Allows use of [joinblue] commands."
-            default: true
-          tkg.kw.command.blockon:
-            description: "Allows use of [blockon] commands"                                               
-            default: true 
-          tkg.kw.command.blockoff:
-            description: "Allows use of [blockoff] commands."
-            default: op			
-          tkg.kw.command.joinred:
-            description: "Allows use of [joinred] commands."
-            default: op      
-          tkh.kw.command.setblue:
-            description: "Allows use of [setsignblue] commands."
-            default: op			
-          tkg.kw.command.setred:
-            description: "Allows use of [setsignred] commands."
-            default: op          
-          tkg.kw.command.setnew:
-            description: "Allows use of [setsignnew] commands."
-            default: op			
-          tkg.kw.command.setstat:
-            description: "Allows use of [setsignstat] commands."
-            default: op          
+-<?php
+ -
+ -namespace TheKnightGamer\KingdomWar;
+ -
+ -use pocketmine\plugin\PluginBase;
+ -
+ -class Main extends PluginBase{
+ -
+ +author: TheKnightGamer
+ +api: [1.14.0]
+ +version: 1.0.0
+  main: tkg\game\KingdomWar\KWMain
+  commands: 
+  kw:
+   description: "Start TheKnightGamer Kingdom War plugin"
+   permission: tkg.kw
+ permissions: 
+ tkg.kw:
+     description: "Kingdom WarMini-game Plugin"
+     default: true
+     children:
+       tkg.kw.command:
+         description: "Allows use all KW commands."
+         default: true
+         children:
+           tkg.kw.command.home:
+             description: "Allow use of [home] command"
+             default: true
+           tkg.kw.command.start:
+             description: "Allows use of [start]commands"
+             default: true            
+           tkg.kw.command.stop:
+             description: "Allows use of [stop] commands"
+             default: true
