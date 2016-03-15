@@ -1,14 +1,7 @@
--<?php
- -
- -namespace TheKnightGamer\KingdomWar;
- -
- -use pocketmine\plugin\PluginBase;
- -
- -class Main extends PluginBase{
- -
- +author: TheKnightGamer
- +api: [1.14.0]
- +version: 1.0.0
+<?php
+ author: TheKnightGamer
+ api: [1.14.0]
+ version: 1.0.0
   main: tkg\game\KingdomWar\KWMain
   commands: 
   kw:
