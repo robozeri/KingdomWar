@@ -14,8 +14,7 @@
  disable_KW_world_blockBreak: true
  
  disable_KW_world_blockPlace: true
- 
- # --------------------------- 
+ #----------------------- 
  lobby_world: "world" 
  lobby_x: "489" 
  lobby_y: "5" 
@@ -30,7 +29,6 @@
  #--------------------------- 
  maximum_team_players: "10" 
  maximum_game_rounds: "3" 
-
  
  # time in seconds 
  round_wait_time: "360" 
@@ -91,8 +89,6 @@
  kw_stop_button_1_x: "149" 
  kw_stop_button_1_y: "8" 
  kw_stop_button_1_z: "156" 
- 
- 
  #--------------------------- 
  # RED TEAM 
  #--------------------------- 
@@ -111,7 +107,6 @@
  kw_red_team_spawn_x: "170" 
  kw_red_team_spawn_y: "5" 
  kw_red_team_spawn_z: "152" 
- 
  #--------------------------- 
  # BLUE TEAM 
  #--------------------------- 
