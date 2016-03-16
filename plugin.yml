@@ -2,7 +2,7 @@ name: KingdomWar
 author: TheKnightGamer
 api: [1.14.0]
 version: 1.0.0
-main: tkg\game\KingdomWar\KWMain
+main: tkg\game\KingdomWar\KWMain.php
 commands: 
 kw:
   description: Start TheKnightGamer Kingdom War plugin
