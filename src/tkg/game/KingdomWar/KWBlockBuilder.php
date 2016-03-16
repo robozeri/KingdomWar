@@ -1,3 +1,5 @@
+<?php
+
 namespace tkg\game\KingdomWar;
 
 
