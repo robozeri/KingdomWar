@@ -7,7 +7,7 @@ use pocketmine\command\CommandExecutor;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
-class KWPlugIn extends PluginBase implements CommandExecutor {
+class KWMain extends PluginBase implements CommandExecutor {
 	
 	// object variables
 	//public $config;
